@@ -13,7 +13,7 @@ public class Homework {
 
     // Testing selectionSort
     printArray(b);
-    selectionSort (b);
+    selectionSort(b);
     printArray(b);
 
     // Testing factorial
