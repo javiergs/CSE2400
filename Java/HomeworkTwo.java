@@ -8,7 +8,7 @@ public class HomeworkTwo {
     Student data;
     int row, col, rowNum, columnNum; 
     String info; 
-    Scanner scan = new Scanner(System.in); 
+    Scanner scan = new Scanner(System.in);
     
     System.out.println ("How many rows do you want?"); 
     rowNum = scan.nextInt(); 
@@ -35,7 +35,7 @@ public class HomeworkTwo {
         System.out.println ("A student " + data.getFirstName() + " " + data.getLastName() + " is not assigned to a seat."); 
       } else { 
         if (classroom.setStudentAt(row, col, data) == true){ 
-          System.out.println("\n The seat at row " + row + " and column " + col + " is assigned to " + data.toString()); 
+          System.out.println("\n The seat at row " + row + " and column " + col + " is assigned to " + data.toString()); 
           System.out.println(classroom); 
         } else { 
           System.out.println("\n The seat at row " + row + " and column " + col + " is taken."); 
