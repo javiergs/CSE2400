@@ -15,11 +15,11 @@ public class Homework {
 	}
 
 	public static void selectionSort (char[] array) {
-    // implement the selection sort algorithm
+	    // implement the selection sort algorithm
 	}
 
 	public static int factorial (int value) {
-    // implement recursive factorial
+    		// implement recursive factorial
 	}
 
 	public static void main(String[] args) {
