@@ -1,4 +1,9 @@
-
+/**
+ * Template for Homework 02
+ * Working with classes and arrays of objects in Java
+ *
+ * @version 2020.fall
+ */
 public class Classroom {
 
 	private Student[][] arrangement;
