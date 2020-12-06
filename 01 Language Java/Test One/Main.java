@@ -1,30 +1,23 @@
-/*
- * Author: Dragan Bogoevski
- * Description: Homework 1 solutions with methods about initializing arrays (placing 'a' and 'b' for each odd or even index, respectively),
- * printing arrays, sorting arrays in descending order using SelectionSort 
- * and a method that recursively calculates factorial for a given integer
- */
-
+/** 
+ * Working with arrays in Java
+ *
+ * @version 2020.08
+*/
 public class Homework {
 
-	/*
-	 * In a char array, puts 'a' at the odd indexes of the array and 'b' at the even
-	 * indexes of the array
-	 */
-	public static void initializeArray(char[] integersArray) {
-
-		for (int i = 0; i < integersArray.length; i++) {
-			if (i % 2 == 0) {
-				integersArray[i] = 'b';
-			} else {
-				integersArray[i] = 'a';
-			}
-		}
-	}
-
-	/*
-	 * Prints all the elements of an array in a single line
-	 */
+  public static void initializeArray(char[] integersArray) {
+    for (int i = 0; i < integersArray.length; i++) {
+      if (i % 2 == 0) {
+        integersArray[i] = 'b';
+      } else {
+	integersArray[i] = 'a';
+      }
+    }
+  }
+  
+  /**
+   * Prints all the elements of array
+   */
 	public static void printArray(char[] charactersArray) {
 
 		for (int i = 0; i < charactersArray.length; i++) {
