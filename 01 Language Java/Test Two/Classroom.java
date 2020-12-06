@@ -1,8 +1,3 @@
-/*
- * Author: Dragan Bogoevski
- * Description: Classroom class containing information about two dimensional classrooms that can be filled with students 
- * and appropriate methods and constructors to work with this class
- */
 
 public class Classroom {
 
