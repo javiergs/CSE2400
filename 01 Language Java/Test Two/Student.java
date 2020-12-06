@@ -1,8 +1,3 @@
-/*
- * Author: Dragan Bogoevski
- * Description: Student class containing information about first name, last name 
- * and appropriate methods and constructors to work with this class
- */
 
 public class Student {
 
