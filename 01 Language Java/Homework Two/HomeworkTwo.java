@@ -1,6 +1,12 @@
 import java.util.Scanner;
 
-public class Main {
+/**
+ * Template for Homework 02
+ * Working with classes and arrays of objects in Java
+ *
+ * @version 2020.fall
+ */
+public class HeworkTwo {
 	
 	public static void main(String[] args) {
 		
