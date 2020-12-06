@@ -1,31 +1,31 @@
-/** 
+/**
  * Template for Homework 01
  * Working with arrays in Java
  *
  * @version 2020.fall
-*/
+ */
 public class Homework {
 
-  public static void initializeArray (char[] array) {
-    // create a for loop and put initial values into array
-  }
-  
-  public static void printArray (char[] array) {
+	public static void initializeArray(char[] array) {
+		// create a for loop and put initial values into array
+	}
+
+	public static void printArray(char[] array) {
 		// create a for loop and print all values on array
 	}
 
-	public static void selectionSort (char[] array) {
-	    // implement the selection sort algorithm
+	public static void selectionSort(char[] array) {
+		// implement the selection sort algorithm
 	}
 
-	public static int factorial (int value) {
-    		// implement recursive factorial
+	public static int factorial(int value) {
+		// implement recursive factorial
 	}
 
 	public static void main(String[] args) {
-		char[] a = { '2', '5', '7', '9', '2', '3', '1', '7', '9', '0' };
-		char[] b = { 'p', 'q', '8', '6', '9', '5', '3', '1', '6' };
-		int[] c = { 4, 2, 5, 3, 1 };
+		char[] a = {'2', '5', '7', '9', '2', '3', '1', '7', '9', '0'};
+		char[] b = {'p', 'q', '8', '6', '9', '5', '3', '1', '6'};
+		int[] c = {4, 2, 5, 3, 1};
 
 		// testing initializeArray
 		printArray(a); // print: 2 5 7 9 2 3 1 7 9 0
