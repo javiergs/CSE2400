@@ -6,7 +6,7 @@ Source code from course's lectures and some sample projects of my CSE 240 class.
 
 ## History
 
-:classical_building: At Arizona State University, Principles of Programming Languages (CSE 340) <br>
+:classical_building: At Arizona State University, Principles of Programming Languages (CSE 240) <br>
 
 ## Description
 
